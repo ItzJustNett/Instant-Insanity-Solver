@@ -1,1 +1,2 @@
-Cube-solver
+#Cube-solver
+Instant-Insainity-Solver
