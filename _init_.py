@@ -99,6 +99,12 @@ def turn_left(cube):
         cube4[2, 0] = temp_cube1
         cube4[0, 1] = temp_cube
 def turn_down(cube):
-    pass
+    temp_cube = cube4[1, 1]
+    temp_cube1 = cube4[2, 1]
+    cube4[1, 1] = cube4[0, 1]
+    cube4[2, 1] = temp_cube
+    temp_cube = cube4[3, 1]
+    cube4[3, 1] = temp_cube1
+    cube4[0, 1] = temp_cube  
 def turn_up(cube):
     pass
